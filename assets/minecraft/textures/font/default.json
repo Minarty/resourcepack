@@ -1,0 +1,34 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/nonlatin_european.png",
+            "ascent": 7
+            "chars": [
+                ...
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/accented.png",
+            "height": 12,
+            "ascent": 10,
+            "chars": [
+                ...
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/ascii.png",
+            "ascent": 7,
+            "chars": [
+                ...
+            ]
+        },
+        {
+            "type": "legacy_unicode",
+            "sizes": "minecraft:font/glyph_sizes.bin",
+            "template": "minecraft:font/unicode_page_%s.png"
+        }
+    ]
+}
